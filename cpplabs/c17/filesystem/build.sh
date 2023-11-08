@@ -18,4 +18,5 @@ fi
 
 out=${cpp%.cpp*}
 
+echo "[BUILDING] g++ -g -Wall -std=c++17 $cpp -o $out -lstdc++fs"
 g++ -g -Wall -std=c++17 $cpp -o $out -lstdc++fs
